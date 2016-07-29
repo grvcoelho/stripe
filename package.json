@@ -1,0 +1,44 @@
+{
+  "name": "stripe",
+  "version": "0.1.0",
+  "description": "Stripe's Checkout in React",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grvcoelho/stripe.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "stripe",
+    "payments"
+  ],
+  "author": "Guilherme Rv Coelho <@grvcoelho>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grvcoelho/stripe/issues"
+  },
+  "homepage": "https://github.com/grvcoelho/stripe#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-loader": "^1.4.1",
+    "eslint-plugin-import": "^1.11.1",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^5.2.2",
+    "file-loader": "^0.9.0",
+    "lost": "^7.0.3",
+    "postcss-loader": "^0.9.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
