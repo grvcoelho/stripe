@@ -29,15 +29,16 @@ module.exports = {
     ]
   }
 }
+
 function preLoaders () {
   return [
-    {
-      test: /\.(js|jsx)$/,
-      exclude: /node_modules/,
-      loaders: [
-        'eslint-loader'
-      ]
-    }
+    // {
+    //   test: /\.(js|jsx)$/,
+    //   exclude: /node_modules/,
+    //   loaders: [
+    //     'eslint-loader'
+    //   ]
+    // }
   ]
 }
 
