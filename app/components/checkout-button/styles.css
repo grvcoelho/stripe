@@ -1,0 +1,23 @@
+.checkout-button {
+  display: block;
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin: 0;
+  height: 37px;
+  border: 0;
+  text-decoration: none;
+  background: #45b1e8;
+  background-image: linear-gradient(#45b1e8,#3097de);
+  border-radius: 4px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-touch-callout: none;
+  user-select: none;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(46,86,153,0.3);
+  box-shadow: 0 1px 0 rgba(46,86,153,0.15), 0 0 4px rgba(86,149,219,0), inset 0 2px 0 rgba(41,102,20,0);
+  transition: box-shadow .15s linear;
+}
