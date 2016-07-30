@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PropTypes } from 'react'
 import './styles'
 
 export default function CheckoutButton(props) {
@@ -10,5 +10,5 @@ export default function CheckoutButton(props) {
 }
 
 CheckoutButton.propTypes = {
-  text: React.PropTypes.string.isRequired
+  text: PropTypes.string.isRequired
 }
