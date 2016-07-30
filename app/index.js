@@ -1,5 +1,6 @@
+import configureStore from './store/configure-store'
 import './styles'
 
-const x = 123
+const store = configureStore()
 
-export default x
+store.getState()
